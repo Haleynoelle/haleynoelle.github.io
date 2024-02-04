@@ -1,7 +1,8 @@
 body {
     background-color: #FFFBE6;
     font-family: 'Josefin Sans', sans-serif;
-    grid-template: ;
+    display: grid;
+    column-gap: 50px;
 }
 
 h1 {
@@ -14,12 +15,18 @@ h2 {
 
 p {
     color: #356859;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 li {
     color: #356859;
 }
 
+
+
 .calculator {
     background-color: #b9e4c95e;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
