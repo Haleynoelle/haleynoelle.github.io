@@ -1,6 +1,8 @@
 alert('this page is under construction')
 
-let width = ()
-const calculateWidth = (width, shrinkrate) {
-    return 'width' * 'shrinkrate';
+var button = document.getElementById("calculateShrinkRate");
+button.addEventListener("click", calculateShrinkRate);
+
+function calculateShrinkRate () {
+    document.getElementById("width").onsubmit.value =
 }
