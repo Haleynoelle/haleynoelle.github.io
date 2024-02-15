@@ -21,7 +21,7 @@ function calculateShrink() {
     var initialHeight = preferredHeight / (1 - (shrinkRate / 100));
     var initialLength = preferredLength / (1 - (shrinkRate / 100));
     
-    document.getElementById("result").innerHTML = "Required initial dimensions based on shrink rate: <br>" +
+    document.getElementById("result").innerHTML = "Required dimensions based on shrink rate: <br>" +
                                                      "Width: " + initialWidth.toFixed(2) + " inches<br>" +
                                                      "Height: " + initialHeight.toFixed(2) + " inches<br>" +
                                                      "Length: " + initialLength.toFixed(2) + " inches";

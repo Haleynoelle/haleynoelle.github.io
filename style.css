@@ -4,29 +4,59 @@ body {
     display: grid;
     column-gap: 50px;
 }
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
 
 h1 {
     color: #FD5523;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
 }
 
 h2 {
     color: #356859;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3;
 }
 
 p {
     color: #356859;
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-li {
-    color: #356859;
-}
-
-
-
-#calculator {
-    background-color: #b9e4c95e;
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row: 4;
+}
+
+#clayShrinkRateForm {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 5;
+}
+
+#calculateShrinkRate {
+    color: #FFFBE6;
+    background-color: #356859;
+    font-size: larger;
+    border-color: #356859;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 6;
+}
+
+
+#result {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 7;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 8;
 }
