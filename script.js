@@ -1,4 +1,4 @@
-alert('this page is under construction')
+/* alert('this page is under construction') */
 
 document.addEventListener("DOMContentLoaded", function() {
     var calculateButton = document.getElementById("calculateShrinkRate");

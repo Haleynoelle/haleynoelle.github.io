@@ -39,10 +39,21 @@ p {
     
 }
 
-/* form {
-    display: grid;
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 } */
 
+#preferredWidth, #preferredHeight, #preferredLength {
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+#break {
+    flex-basis: 100%;
+    height: 0;
+}
 
 /* #clayShrinkRateForm {
     grid-column-start: 2;
@@ -56,6 +67,7 @@ p {
     background-color: #356859;
     font-size: larger;
     border-color: #356859;
+    flex-direction: row;
 }
 
 
