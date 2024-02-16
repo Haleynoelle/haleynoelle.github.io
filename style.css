@@ -1,14 +1,10 @@
 body {
     background-color: #FFFBE6;
     font-family: 'Josefin Sans', sans-serif;
-    display: grid;
-    column-gap: 50px;
+    display: flexbox
 }
 header {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 8;
+    
 }
 ul {
     list-style-type: none;
@@ -30,50 +26,43 @@ ul {
 
 h1 {
     color: #FD5523;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 1;
+  
 }
 
 h2 {
     color: #356859;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 3;
+   
 }
 
 p {
     color: #356859;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 4;
+    
 }
 
-#clayShrinkRateForm {
+/* form {
+    display: grid;
+} */
+
+
+/* #clayShrinkRateForm {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 5;
-}
+} */
+
 
 #calculateShrinkRate {
     color: #FFFBE6;
     background-color: #356859;
     font-size: larger;
     border-color: #356859;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 6;
 }
 
 
 #result {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 7;
+    
 }
 
 footer {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 8;
+
 }
