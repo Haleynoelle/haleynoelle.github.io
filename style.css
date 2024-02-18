@@ -14,7 +14,7 @@ ul {
   }
 
   li a {
-    display: block;
+    display: flex;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
@@ -26,16 +26,22 @@ ul {
 
 h1 {
     color: #FD5523;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   
 }
 
 h2 {
-    color: #356859;
+    color: #3F0DCD;
    
 }
 
 p {
-    color: #356859;
+    color: #3F0DCD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -64,9 +70,9 @@ form {
 
 #calculateShrinkRate {
     color: #FFFBE6;
-    background-color: #356859;
+    background-color: #3F0DCD;
     font-size: larger;
-    border-color: #356859;
+    border-color: #3F0DCD;
     flex-direction: row;
 }
 
@@ -78,5 +84,7 @@ form {
 }
 
 footer {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
