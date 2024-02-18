@@ -1,8 +1,9 @@
 body {
     background-color: #FFFBE6;
     font-family: 'Josefin Sans', sans-serif;
-    display: flexbox
+    display: flex;
 }
+
 header {
     
 }
