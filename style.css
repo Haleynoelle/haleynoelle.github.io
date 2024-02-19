@@ -4,9 +4,13 @@ body {
 }
 
 header {
-    display: flex;
+   
 }
 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,11 +53,25 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} */
+} 
 
-#preferredWidth, #preferredHeight, #preferredLength {
+
+
+#preferredHeightInput, #preferredWidthInput {
+    margin: 20px;
     flex-direction: row;
-    flex-basis: 100%;
+    align-items: baseline;
+}
+ #preferredLengthInput {
+    margin: 20px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#shrinkRateInput {
+    margin: 50px;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 #break {
@@ -61,19 +79,14 @@ form {
     height: 0;
 }
 
-/* #clayShrinkRateForm {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 5;
-} */
-
-
 #calculateShrinkRate {
-    color: #FFFBE6;
-    background-color: #3F0DCD;
+    color: #3F0DCD;
+    background-color: #FFFBE6;
     font-size: larger;
+    border: solid;
     border-color: #3F0DCD;
     flex-direction: row;
+    margin: 20px;
 }
 
 
@@ -87,4 +100,5 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }

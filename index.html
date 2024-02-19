@@ -31,18 +31,26 @@
     <div id="break"></div>
 
     <p>Dry Dimensions</p>
-        <form id="clayShrinkRateForm">
-            <label for="Width">Width:</label><br>
-            <input type="number" id="preferredWidth" name="width"><br>
-            <label for="Length">Length:</label><br>
-            <input type="number" id="preferredLength" name="length"><br>
-            <label for="Height">Height:</label><br>
-            <input type="number" id="preferredHeight" name="height"><br>
+        <form id="clayShrinkRateForm"> 
+            <div id="preferredWidthInput">
+                <label for="preferredWidth">width:</label><br>
+                <input type="number" id="preferredWidth" name="width"><br>
+            </div>
+            <div id="preferredLengthInput">
+                <label for="preferredLength">length:</label><br>
+                <input type="number" id="preferredLength" name="length"><br>
+            </div>
+            <div id="preferredHeightInput">
+                <label for="preferredHeight">height:</label><br>
+                <input type="number" id="preferredHeight" name="height"><br>
+            </div>
             <div id="break"></div>
-            <label for="shrinkRate">Shrink Rate %:</label><br>
-            <input type="number" id="shrinkRate" name="shrinkRate"><br>
+            <div id="shrinkRateInput">
+                <label for="shrinkRate">shrink rate %:</label><br>
+                <input type="number" id="shrinkRate" name="shrinkRate"><br>
+            </div>
             <div id="break"></div>
-            <button type="button" id="calculateShrinkRate">Submit</button>
+            <button type="button" id="calculateShrinkRate">submit</button>
         </form>
         <div id="break"></div>
         <div id="result"></div>
