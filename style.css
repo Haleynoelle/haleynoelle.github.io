@@ -19,13 +19,13 @@ ul {
 
   li a {
     display: flex;
-    color: #000;
+    color: #FD5523;
     padding: 8px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-        color: #FD5523;
+        color: #3F0DCD;
   }
 
 h1 {
@@ -37,12 +37,12 @@ h1 {
 }
 
 h2 {
-    color: #3F0DCD;
+    color: #FD5523;
    
 }
 
 p {
-    color: #3F0DCD;
+    color: #FD5523;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,23 +55,30 @@ form {
     justify-content: center;
 } 
 
-
+input {
+    background: #FFFBE6;
+    border: solid;
+    border-color: #FD5523;
+}
 
 #preferredHeightInput, #preferredWidthInput {
     margin: 20px;
     flex-direction: row;
     align-items: baseline;
+    color: #FD5523;
 }
  #preferredLengthInput {
     margin: 20px;
     flex-direction: row;
     align-items: baseline;
+    color: #FD5523;
 }
 
 #shrinkRateInput {
     margin: 20px;
     flex-direction: row;
     align-items: baseline;
+    color: #FD5523;
 }
 
 #break {
@@ -80,11 +87,11 @@ form {
 }
 
 #calculateShrinkRate {
-    color: #3F0DCD;
+    color: #FD5523;
     background-color: #FFFBE6;
     font-size: larger;
     border: solid;
-    border-color: #3F0DCD;
+    border-color: #FD5523;
     flex-direction: row;
     margin: 20px;
 }
@@ -94,6 +101,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: #3F0DCD;
 }
 
 footer {
