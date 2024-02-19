@@ -69,7 +69,7 @@ form {
 }
 
 #shrinkRateInput {
-    margin: 50px;
+    margin: 20px;
     flex-direction: row;
     align-items: baseline;
 }
