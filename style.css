@@ -6,6 +6,7 @@ body {
 header {
    color:#FD5523;
 }
+
 ul {
     display: flex;
     flex-direction: row;
@@ -33,20 +34,21 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  
+    margin-top: 50px;
 }
 
 h2 {
     color: #FD5523;
-   
+    
 }
 
 p {
     color: #FD5523;
+    font-weight: bolder;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin-top: 50px;
 }
 
 form {
@@ -62,20 +64,26 @@ input {
 }
 
 #preferredHeightInput, #preferredWidthInput {
-    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
     color: #FD5523;
 }
  #preferredLengthInput {
-    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
     color: #FD5523;
 }
 
 #shrinkRateInput {
-    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
     color: #FD5523;
