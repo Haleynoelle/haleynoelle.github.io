@@ -23,16 +23,16 @@ function calculateShrink() {
     
     document.getElementById("result").innerHTML = "Build to these dimensions before firing: <br>" +
                                                      "Width: " + initialWidth.toFixed(2) + " inches<br>" +
-                                                     "Length: " + initialLength.toFixed(2) + "inches<br>" +
+                                                     "Length: " + initialLength.toFixed(2) + " inches<br>" +
                                                      "Height: " + initialHeight.toFixed(2) + " inches<br>";
                                                      
 }
 
-function myFunction() {
+function cakeMenuFunction() {
     var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
+    if (x.style.display === "flex") {
       x.style.display = "none";
     } else {
-      x.style.display = "block";
+      x.style.display = "flex";
     }
   }

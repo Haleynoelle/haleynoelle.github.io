@@ -7,6 +7,11 @@ header {
    color:#FD5523;
 }
 
+.gg-menu-cake {
+    display: flex;
+    color: #FD5523;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -128,6 +133,9 @@ footer {
         align-items: center;
         flex-direction: column;
     } 
+    #myLinks {
+        display: none;
+      }
 
 } 
 
