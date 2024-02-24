@@ -7,8 +7,12 @@ header {
    color:#FD5523;
 }
 
-.gg-menu-cake {
+nav {
     display: flex;
+    justify-content: flex-end;
+}
+
+.gg-menu-cake {
     color: #FD5523;
 }
 
@@ -125,7 +129,7 @@ footer {
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 660px) {
     form {
         display: flex;
         flex-wrap: nowrap;
@@ -139,8 +143,8 @@ footer {
 
 } 
 
-@media screen and (min-width: 576px) {
-    a {
+@media screen and (min-width: 660px) {
+    .icon {
         display: none;
     }
 }
