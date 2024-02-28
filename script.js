@@ -35,4 +35,4 @@ function cakeMenuFunction() {
     } else {
       x.style.display = "flex";
     }
-  }
+  } 
