@@ -1,5 +1,5 @@
 body {
-    background-color:#F6F1E2;
+    background-color:#FFFBE6;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -135,6 +135,21 @@ input {
     flex-wrap: wrap;
     justify-content: center;
     color: #3F0DCD;
+}
+
+#login {
+    color: #FD5523;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#logininput {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: baseline;
+    color: #FD5523;
 }
 
 footer {
