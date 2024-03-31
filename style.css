@@ -82,6 +82,15 @@ input {
     border: solid;
     border-color: #FD5523;
 }
+
+#submitbutton {
+    color: #FD5523;
+    background-color: white;
+    border: solid;
+    border-color: #FD5523;
+    flex-direction: row;
+}
+
 #createaccount {
     color: #FD5523;
     display: flex;
