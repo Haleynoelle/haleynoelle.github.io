@@ -1,5 +1,5 @@
 body {
-    background-color:#FFFBE6;
+    background-color:white;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -78,9 +78,16 @@ form {
 } 
 
 input {
-    background: #FFFBE6;
+    background: white;
     border: solid;
     border-color: #FD5523;
+}
+#createaccount {
+    color: #FD5523;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 #preferredHeightInput, #preferredWidthInput {
@@ -116,7 +123,7 @@ input {
 
 #calculateShrinkRate {
     color: #FD5523;
-    background-color: #FFFBE6;
+    background-color: white;
     font-size: larger;
     border: solid;
     border-color: #FD5523;
