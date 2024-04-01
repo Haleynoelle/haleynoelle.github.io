@@ -4,7 +4,7 @@ body {
 }
 
 header {
-   color:#FD5523;
+   color:#F47327;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 .logo {
-    color: #FD5523;
+    color: #F47327;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -24,7 +24,7 @@ nav {
 }
 
 .gg-menu-cake {
-    color: #FD5523;
+    color: #F47327;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
 
   li a {
     display: flex;
-    color: #FD5523;
+    color: #F47327;
     padding: 8px 16px;
     text-decoration: none;
   }n
@@ -50,7 +50,7 @@ ul {
   }
 
 h1 {
-    color: #FD5523;
+    color: #F47327;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,12 +58,12 @@ h1 {
 }
 
 h2 {
-    color: #FD5523;
+    color: #F47327;
     
 }
 
 p {
-    color: #FD5523;
+    color: #F47327;
     font-weight: bolder;
     display: flex;
     flex-wrap: wrap;
@@ -80,19 +80,24 @@ form {
 input {
     background: white;
     border: solid;
-    border-color: #FD5523;
+    border-color: #F47327;
+}
+
+#digitalshelf {
+    color: #F47327;
+    font-size: xx-large;
 }
 
 #submitbutton {
-    color: #FD5523;
+    color: #F47327;
     background-color: white;
     border: solid;
-    border-color: #FD5523;
+    border-color: #F47327;
     flex-direction: row;
 }
 
 #createaccount {
-    color: #FD5523;
+    color: #F47327;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,7 +110,7 @@ input {
     margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
-    color: #FD5523;
+    color: #F47327;
 }
  #preferredLengthInput {
     margin-bottom: 30px;
@@ -113,7 +118,7 @@ input {
     margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
-    color: #FD5523;
+    color: #F47327;
 }
 
 #shrinkRateInput {
@@ -122,7 +127,7 @@ input {
     margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
-    color: #FD5523;
+    color: #F47327;
 }
 
 #break {
@@ -131,18 +136,18 @@ input {
 }
 
 #calculateShrinkRate {
-    color: #FD5523;
+    color: #F47327;
     background-color: white;
     font-size: larger;
     border: solid;
-    border-color: #FD5523;
+    border-color: #F47327;
     flex-direction: row;
     margin: 20px;
 }
 
 #calculateShrinkRate:focus {
     color:#FFFBE6;
-    background-color: #FD5523;
+    background-color: #F47327;
 }
 
 
@@ -154,7 +159,7 @@ input {
 }
 
 #login {
-    color: #FD5523;
+    color: #F47327;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -165,7 +170,7 @@ input {
     margin-right: 20px;
     flex-direction: row;
     align-items: baseline;
-    color: #FD5523;
+    color: #F47327;
 }
 
 footer {
