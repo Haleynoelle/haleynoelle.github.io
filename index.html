@@ -6,27 +6,28 @@
     <link href="style.css" type="text/css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Clay Catalog</title>
     <script src="script.js"></script>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu-cake.css' rel='stylesheet'>
     <!-- <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"> -->
     <link rel="icon" href="favicon.ico" type="image/icon type">
+   
+    <div id="overlay"></div>
 
     <style>
         body {
-          background-image: url('backgroundImage.jpg');
+          background-image: url('ceramichero.jpg');
         }
     </style>
  
 </head>
 <body>
-   <header>
-        <nav></nav>
+    <header>
+        <!--<nav>
         <a href="javascript:void(0);" class="icon" onclick="cakeMenuFunction()">
             <i class="gg-menu-cake"></i>
           </a>
-            <h1 class="logo">Clay Catalog</h1>
             <ul id="myLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -34,13 +35,26 @@
                 <li><a href="resources.html">Resources & Plugins</a></li>
                 <li><a href="profile.html">Profile</a></li>
             </ul>
-        </nav>
+        </nav>-->
     </header>
-
+    
+    <div id="headercontainer">
+        <img src="Logo.png" height="40px" width="40px" alt="Clay Catalog Logo">
+    </div>  
 
     <div id="break"></div>
 
-    <h1 id="digitalshelf">A Digital Shelf For Your Ceramics</h1>
+    <div id="hero">
+        <h1 id="logo">Clay Catalog</h1>
+        <h2 id="digitalshelf">A Digital Shelf For Your Ceramics</h2>
+    </div>
+
+    <div id="break"></div>
+
+    <div id=buttoncontainer>
+        <button id="herobutton" type="button">Reserve Your Shelf Space</button>
+    </div>  
+
        
    <!-- 
     <form>
@@ -55,11 +69,11 @@
 
     <!--
      <footer>
-        <p class="footerText">About</p>
-        <p class="footerText">Contact</p>
-        <p class="footerText">Pricing</p>
-        <p class="footerText">Share Feedback</p>
+        <div id=textscroll>
+            <p id="comingsoon">COMING SOON</p> 
+            <img id="footerimage" src="Logo.png" height="40px" width="40px" alt="Clay Catalog Logo">
+        </div>
     </footer> 
-    -->
+-->
 </body>
 </html>
