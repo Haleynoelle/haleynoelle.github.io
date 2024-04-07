@@ -127,8 +127,9 @@ input {
 }
 
 #herobutton {
-    color: #F45F33;
-    background: rgba(255, 255, 255, 0);
+    color: #F7F4F2;
+    background-color: #F45F33;
+    /*background: rgba(255, 255, 255, 0); */
     font-family: "Roboto Mono", monospace;
     font-size: larger;
     border: solid;
@@ -251,6 +252,27 @@ footer {
     #myLinks {
         display: none;
       }
+
+    #headercontainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    #logo, #digitalshelf {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #herobutton {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
 
 } 
 
