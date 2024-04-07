@@ -266,8 +266,9 @@ footer {
         font-size: 100px;
     }
     #digitalshelf {
-        margin-left: 25px;
-        font-size: 30;
+        margin-left: 8px;
+        margin-top: 10px;
+        font-size: 19px;
     }
     #logo, #digitalshelf {
         display: flex;
