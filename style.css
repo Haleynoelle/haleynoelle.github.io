@@ -264,6 +264,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
+        margin: 20px;
     }
 
     #herobutton {
@@ -272,7 +273,17 @@ footer {
         justify-content: center;
         flex-direction: column;
         margin-top: 50px;
-    }
+        color: #F7F4F2;
+        background-color: #F45F33;
+        /*background: rgba(255, 255, 255, 0); */
+        font-family: "Roboto Mono", monospace;
+        font-size: larger;
+        border: solid;
+        border-color: #F45F33;
+        flex-direction: row;
+        margin: 20px;
+        z-index: 5;
+        }
 
 } 
 
