@@ -104,7 +104,7 @@ input {
 }
 
 #logo {
-    color: #FD5523;
+    color: #F45F33;
     font-weight: 800;
     font-size: 128px;
     margin-bottom: 0px;
@@ -112,7 +112,7 @@ input {
 }
 
 #digitalshelf {
-    color: #FD5523;
+    color: #F45F33;
     font-size: 50px;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
@@ -127,11 +127,11 @@ input {
 }
 
 #herobutton {
-    color: #FD5523;
+    color: #F45F33;
     background: rgba(255, 255, 255, 0);
     font-size: larger;
     border: solid;
-    border-color: #FD5523;
+    border-color: #F45F33;
     flex-direction: row;
     margin: 20px;
     z-index: 5;
