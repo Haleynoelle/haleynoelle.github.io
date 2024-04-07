@@ -241,7 +241,7 @@ footer {
 } */
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 460px) {
     form {
         display: flex;
         flex-wrap: nowrap;
@@ -258,13 +258,16 @@ footer {
         flex-wrap: wrap;
         align-items: flex-end;
         flex-direction: column;
+        margin: 8px;
     }
 
     #logo {
-        margin-left: 25px;
+        margin-left: 10px;
+        font-size: 100px;
     }
     #digitalshelf {
         margin-left: 25px;
+        font-size: 30;
     }
     #logo, #digitalshelf {
         display: flex;
@@ -272,7 +275,6 @@ footer {
         justify-content: center;
         flex-direction: column;
     }
-
     #herobutton {
         display: flex;
         flex-wrap: wrap;
