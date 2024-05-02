@@ -6,22 +6,27 @@
     <link href="style.css" type="text/css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Inspiration</title>
     <script src="script.js"></script>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu-cake.css' rel='stylesheet'>
-    <title>Resources</title>
-</head>
+    <link rel="icon" href="favicon.ico" type="image/icon type">
+   
+    <div id="overlay"></div>
 
+    <style>
+        body {
+          background-image: url('ceramichero.jpg');
+        }
+    </style>
+ 
+</head>
 <body>
     <nav id="navContainer">
-        <a href="javascript:void(0);" class="icon" onclick="cakeMenuFunction()">
-            <i class="gg-menu-cake"></i>
-          </a>
         <a href="home.html">
             <img id="homeLogo" src="Logo.png" alt="Button Image">
         </a>
         <ul id="myLinks">
-            <li id="homeLink"><a href="home.html">About</a></li>
             <li id="homeLink"><a href="home.html">Clay Catalog</a></li>
             <li><a id="resourcesLink" href="resources.html">Resources</a></li>
             <li><a id="inspirationLink" href="inspiration.html">Inspiration</a></li>
@@ -29,13 +34,6 @@
         </ul>
         <h1>Clay Catalog</h1>
     </nav>
-    <section id="sortLinks">
-    <button type="sortbutton" id="calculatorButton" onclick="">Calculators</button>
-    </section>
-    <section id="resourceThumbnails">
-        <a href="https://haleynoelle.github.io/clay-calculator-project/volumeCalculator.html">
-            <img id="thumbnail" src="clayCalculator.jpeg" alt="Button Image">
-        </a>
-    </section>
+    
 </body>
 </html>
