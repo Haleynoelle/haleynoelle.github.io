@@ -2,24 +2,20 @@ body {
     background-color:white;
     font-family: "Inter", sans-serif;
 }
-
-header {
-   color:#FD5523;
-}
-
-img {
-    z-index: 2;
-}
-
-/*nav {
-    display: flex;
-    justify-content: flex-end; 
-}*/
-
 .gg-menu-cake {
     color: #FD5523;
 }
-
+#navContainer {
+    display: flex;
+    align-items: baseline;
+}
+#homeLink {
+    display: none;
+}
+#homeLogo {
+    width: 25px;
+    height: 25px;
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -29,217 +25,22 @@ ul {
     margin: 0;
     padding: 0;
     /* width: 60px; */
-  }
+}
 
-  li a {
+li a {
     display: flex;
     color: #F47327;
     padding: 8px 16px;
     text-decoration: none;
-  }n
-
-  li a:hover {
-        color: #3F0DCD;
-  }
-
-h1 {
-    color: #FD5523;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
 }
 
-h2 {
-    color: #FD5523;
-    
+li a:hover {
+    color: #3F0DCD;
 }
-
-p {
-    color: #FD5523;
-    font-weight: bolder;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} 
-
-input {
-    background: white;
-    border: solid;
-    border-color: #FD5523;
-}
-#headercontainer {
-    display: flex;
-    justify-content: end;
-    margin: 20px;
-}
-
-
-#overlay {
-  position: fixed; 
-  display: flex;
-  width: 100%; 
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.1); 
-  z-index: 1; 
-  cursor: pointer; 
-} 
-
-#hero {
-    display: flex;
-    justify-content:baseline;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#logo {
-    color: #F45F33;
-    font-weight: 800;
-    font-size: 128px;
-    margin-bottom: 0px;
-    z-index: 4; 
-}
-
-#digitalshelf {
-    color: #F45F33;
-    font-size: 50px;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 400;
-    margin-top: 0px;
-    z-index: 3;
-}
-#buttoncontainer {
-    display: flex;
-    justify-content:baseline;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#herobutton {
-    color: #F7F4F2;
-    background-color: #F45F33;
-    /*background: rgba(255, 255, 255, 0); */
-    font-family: "Roboto Mono", monospace;
-    font-size: larger;
-    border: solid;
-    border-color: #F45F33;
-    flex-direction: row;
-    margin: 20px;
-    z-index: 5;
-}
-
-#submitbutton {
-    color: #FD5523;
-    background-color: white;
-    border: solid;
-    border-color: #FD5523;
-    flex-direction: row;
-}
-
-#createaccount {
-    color: #FD5523;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-#preferredHeightInput, #preferredWidthInput {
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
-    align-items: baseline;
-    color: #FD5523;
-}
- #preferredLengthInput {
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
-    align-items: baseline;
-    color: #FD5523;
-}
-
-#shrinkRateInput {
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
-    align-items: baseline;
-    color: #FD5523;
-}
-
 #break {
     flex-basis: 100%;
     height: 0;
 }
-
-#calculateShrinkRate {
-    color: #FD5523;
-    background-color: white;
-    font-size: larger;
-    border: solid;
-    border-color: #FD5523;
-    flex-direction: row;
-    margin: 20px;
-}
-
-#calculateShrinkRate:focus {
-    color:#FFFBE6;
-    background-color: #FD5523;
-}
-
-
-#result {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #3F0DCD;
-}
-
-#login {
-    color: #FD5523;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#logininput {
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
-    align-items: baseline;
-    color: #FD5523;
-}
-
-/* I WANT THIS TO SCROLL ACROSS THE BOTTOM OF THE DAMN SCREEN AND LINE UP
-footer {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 400;
-    font-size: 45px;
-    align-content: flex-end;
-}
-#textscroll, #comingsoon {
-    opacity: 0.7;
-    color: #F7F4F2;
-    display: inline-flex;
-} */
-
 
 @media screen and (max-width: 460px) {
     form {
