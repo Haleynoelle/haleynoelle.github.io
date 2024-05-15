@@ -79,8 +79,10 @@ footer {
     border-top: solid #004225;
     width: 100vw;
     color: #004225;
+    background-color: white;
     font-weight: 300;
     position: absolute;
+    padding: 10px 10px 10px 10px;
     bottom: 0;
 }
 input {
