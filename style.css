@@ -29,6 +29,11 @@ img {
     font-size: 16px;
     font-weight: 300;
 }
+#scroll {
+    height: 100vh;
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory; 
+}
 #heroSection {
     position: relative;
     display: flex;
@@ -81,7 +86,7 @@ footer {
     color: #004225;
     background-color: white;
     font-weight: 300;
-    position: absolute;
+    position: sticky;
     padding: 10px 10px 10px 10px;
     bottom: 0;
 }
