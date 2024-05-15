@@ -41,6 +41,16 @@ li a:hover {
     flex-basis: 100%;
     height: 0;
 }
+/* RESOURCES */
+#resourceCards {
+    display: flex;
+    max-width: 800px;
+}
+#card {
+   width: 150px;
+   height: 150px;
+   padding: 20px;
+}
 
 @media screen and (max-width: 460px) {
     form {
