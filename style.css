@@ -1,10 +1,152 @@
 body {
     background-color:white;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter Tight", sans-serif;
 }
-.gg-menu-cake {
-    color: #FD5523;
+h1 {
+    color: #004225;
+    font-size: 60px;
+    margin-top: 15px;
 }
+h2 {
+ color: #004225;
+ font-size: 30px;
+ font-weight: lighter;
+ font-family: "Bebas Neue", sans-serif;
+ justify-self: center;
+ align-self: center;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+img {
+    align-self: center;
+}
+#tagline {
+    font-size: 16px;
+    font-weight: 300;
+}
+#heroSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+}
+#heroImg {
+    width: 100%;
+    height: auto;
+}
+#overlayText1 {
+    justify-self: center;
+    position: absolute;
+    top: 1%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 55vw;
+    z-index: 2;
+}
+/*#overlayText2 {
+    position: absolute;
+    top: 5%; 
+    left: 57%; 
+    transform: translate(-50%, -50%);
+    color: white;
+}*/
+#aboutSection {
+    display: flex;
+    flex-direction: column;
+}
+#aboutClayCatalog {
+    align-self: center;
+    color: #004225;
+    font-family: "Bebas Neue", sans-serif;
+    width: 70vw;
+    margin-top: 0px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: solid #004225;
+    width: 100vw;
+    color: #004225;
+    font-weight: 300;
+}
+input {
+    background-color: white;
+    border: solid #004225;
+    border-radius: 6px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 300;    
+}
+button {
+    background-color: #004225;
+    border: solid #004225;
+    border-radius: 6px;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 300;
+}
+#signUp > p {
+ margin-bottom: 2px;
+}
+
+#progressBar > p {
+    margin-bottom: 2px;
+}
+#meter { 
+    height: 10px;
+    width: 20vw;
+    position: relative;
+    background: #00422545;
+    border: none;
+    border-radius: 6px;
+    box-shadow: inset 0 -2px 1px rgba(255, 255, 255, 0.3);
+}
+#meter > span {
+    display: block;
+    height: 100%;
+    background-color: #004225;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: linear-gradient(.2turn, #0042252f, #004225);
+  }
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    img {
+        width: 80vw;
+    }
+    footer {
+        font-size: smaller;
+    }
+    #overlayText2, #overlayText1 {
+        position: absolute;
+        font-size: 16px;
+        color: #004225;
+        width: 70vw;
+    }
+
+}
+
+
+
+
 #navContainer {
     display: grid;
     grid-template-rows: auto;
@@ -28,13 +170,11 @@ ul {
     padding: 0;
     /* width: 60px;*/
 }
-
 li a {
-    color: #F47327;
+    color: #17281E;
     padding: 8px 16px;
     text-decoration: none;
 }
-
 li a:hover {
     color: #3F0DCD;
 }
@@ -42,6 +182,14 @@ li a:hover {
     flex-basis: 100%;
     height: 0;
 }
+
+
+
+
+
+
+
+
 /* RESOURCES */
 #resourceFilter {
     display: grid;
@@ -56,7 +204,7 @@ li a:hover {
    height: 150px;
    padding: 20px;
 }
-
+/*
 @media screen and (max-width: 460px) {
     form {
         display: flex;
@@ -100,7 +248,7 @@ li a:hover {
         margin-top: 50px;
         color: #F7F4F2;
         background-color: #F45F33;
-        /*background: rgba(255, 255, 255, 0); */
+        background: rgba(255, 255, 255, 0);
         font-family: "Roboto Mono", monospace;
         font-size: larger;
         border: solid;
@@ -116,4 +264,4 @@ li a:hover {
     .icon {
         display: none;
     }
-}
+}*/
