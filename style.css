@@ -80,6 +80,8 @@ footer {
     width: 100vw;
     color: #004225;
     font-weight: 300;
+    position: absolute;
+    bottom: 0;
 }
 input {
     background-color: white;
