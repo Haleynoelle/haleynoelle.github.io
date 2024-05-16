@@ -130,14 +130,14 @@ button {
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
 }
 #progressBar > p {
     margin-bottom: 0px;
 }
 #meter { 
     height: 10px;
-    width: 40vw;
+    width: 21vw;
     position: relative;
     background: #00422545;
     border: none;
