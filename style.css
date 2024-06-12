@@ -33,11 +33,7 @@ img {
     font-size: 16px;
     font-weight: 300;
 }
-#scroll {
-    height: 100vh;
-    overflow-x: scroll; 
-    scroll-snap-type: x mandatory; 
-}
+
 #heroSection {
     position: relative;
     display: flex;
