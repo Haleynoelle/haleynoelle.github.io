@@ -1,14 +1,22 @@
 body {
     background-color:white;
     font-family: "Inter Tight", sans-serif;
+    background-image: url('images/vika-wendish-06X7AIB00p8-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
 }
 h1 {
-    color: #004225;
+    color: #1f1c1c;
     font-size: 60px;
     margin-top: 15px;
 }
 h2 {
- color: #004225;
+ color: #1f1c1c;
  font-size: 30px;
  font-weight: lighter;
  font-family: "Bebas Neue", sans-serif;
@@ -35,63 +43,43 @@ img {
 }
 
 #heroSection {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 35px;
-}
-#heroImg {
-    width: 100%;
-    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+
 }
 #overlayText1 {
-    justify-self: center;
-    position: absolute;
-    top: 1%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    width: 55vw;
-    z-index: 2;
-}
-/*#overlayText2 {
-    position: absolute;
-    top: 5%; 
-    left: 57%; 
-    transform: translate(-50%, -50%);
-    color: white;
-}*/
-#aboutSection {
-    display: flex;
-    flex-direction: column;
-}
-#aboutClayCatalog {
-    align-self: center;
-    color: #004225;
-    font-family: "Bebas Neue", sans-serif;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 60px;
     width: 80vw;
-    margin-top: 0px;
+    z-index: 2;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 25px;
 }
+
 .responsive {
     max-width: 100%;
     height: auto;
 }
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    border-top: solid #004225;
-    border-width: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
     width: 100vw;
-    color: #004225;
-    background-color: white;
+    color: #1f1c1c;
     font-weight: 300;
-    position: sticky;
+    position: fixed;
     padding: 10px 10px 10px 10px;
     bottom: 0;
+    background-color: rgba(249, 249, 249, .6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
 }
 #footerLogo {
     padding-bottom: 10px;
+    margin-right: 10px;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 3;
@@ -99,25 +87,25 @@ footer {
     justify-self: end;
 }
 input {
-    background-color: white;
-    border: solid #004225;
+    background-color: #E6E7E1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border: solid #1f1c1c;
     border-width: 1px;
     border-radius: 6px;
     font-family: "Inter Tight", sans-serif;
     font-weight: 300;   
 }
 button {
-    background-color: #004225;
-    border: solid #004225;
+    background-color: #1f1c1c;
+    border: solid #1f1c1c;
     border-radius: 6px;
-    color: white;
+    color: #E6E7E1;
     font-family: "Inter Tight", sans-serif;
     font-weight: 300;
 }
 #signUp {
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
+justify-self: center;
 }
 #signUp > p {
  margin-bottom: 2px;
@@ -147,7 +135,7 @@ button {
     position: relative;
     overflow: hidden;
     border-radius: 6px;
-    background: linear-gradient(.2turn, #0042252f, #004225);
+    background: linear-gradient(.2turn, #0000009b, #004225);
   }
 
 @media screen and (max-width: 640px) {
@@ -166,18 +154,16 @@ button {
     input, button, p {
         font-size: 12px;
     }
-    #overlayText2, #overlayText1 {
-        position: absolute;
-        font-size: 16px;
-        color: #004225;
-        width: 70vw;
-    }
-    
-
 }
 
-
-
+@media screen and (max-width: 850px) {
+#overlayText1 {
+    display: grid;
+    grid-row-start: 1;
+    justify-self: center;
+    padding: 0px;
+} 
+}
 
 #navContainer {
     display: grid;
